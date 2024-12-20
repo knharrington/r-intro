@@ -111,3 +111,13 @@ z =
 data.table::fread()                                         # This syntax is package::function (good for overlapping packages/functions)
 fread()                                                     # This is the same function as above; both work
 
+# you do not always have to explicitly call the arguments in a function
+# and some functions have arguments with defaults you do not have to call at all
+?seq()
+seq(0,5,1)
+seq(from=0, to=5, by=1)
+
+# you can also use a print function to see your objects
+print(x)
+x
+
